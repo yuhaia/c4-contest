@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CommunityCollectionViewCell" customModule="心晴" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="92" height="184"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="92" height="184"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="beE-kP-jg5">
+                        <rect key="frame" x="5" y="5" width="82" height="89"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbk-Xd-fWQ">
+                        <rect key="frame" x="15" y="104" width="62" height="18.5"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Label">
+                                <attributes>
+                                    <font key="NSFont" size="13" name="PingFangSC-Medium"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVC-qv-9gX">
+                        <rect key="frame" x="15" y="132.5" width="62" height="14.5"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Label">
+                                <attributes>
+                                    <color key="NSColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" metaFont="controlContent"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gke-Q6-6SG">
+                        <rect key="frame" x="15" y="157" width="62" height="17"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Label">
+                                <attributes>
+                                    <color key="NSColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <font key="NSFont" size="12" name="PingFangSC-Semibold"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="kVC-qv-9gX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="6qR-67-U4g"/>
+                <constraint firstAttribute="trailing" secondItem="beE-kP-jg5" secondAttribute="trailing" constant="5" id="BUm-lr-OuE"/>
+                <constraint firstItem="beE-kP-jg5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="LMA-Zt-Ix5"/>
+                <constraint firstItem="gke-Q6-6SG" firstAttribute="top" secondItem="kVC-qv-9gX" secondAttribute="bottom" constant="10" id="Max-CG-NEt"/>
+                <constraint firstAttribute="bottom" secondItem="gke-Q6-6SG" secondAttribute="bottom" constant="10" id="TT8-n1-wnf"/>
+                <constraint firstItem="gke-Q6-6SG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="gRe-91-htk"/>
+                <constraint firstAttribute="trailing" secondItem="lbk-Xd-fWQ" secondAttribute="trailing" constant="15" id="kB1-VT-mW7"/>
+                <constraint firstItem="lbk-Xd-fWQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="sjY-YM-yZq"/>
+                <constraint firstItem="lbk-Xd-fWQ" firstAttribute="top" secondItem="beE-kP-jg5" secondAttribute="bottom" constant="10" id="tam-79-283"/>
+                <constraint firstItem="beE-kP-jg5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="vYW-nf-e6J"/>
+                <constraint firstAttribute="trailing" secondItem="gke-Q6-6SG" secondAttribute="trailing" constant="15" id="w5c-BQ-RT7"/>
+                <constraint firstAttribute="trailing" secondItem="kVC-qv-9gX" secondAttribute="trailing" constant="15" id="wxX-so-cc8"/>
+                <constraint firstItem="kVC-qv-9gX" firstAttribute="top" secondItem="lbk-Xd-fWQ" secondAttribute="bottom" constant="10" id="yyk-jv-ahu"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="92" height="184"/>
+            <connections>
+                <outlet property="imageView" destination="beE-kP-jg5" id="j9V-GN-hNr"/>
+                <outlet property="nameLabel" destination="lbk-Xd-fWQ" id="aMf-Gi-bMc"/>
+                <outlet property="rangeTimeLabel" destination="gke-Q6-6SG" id="Euw-N5-EDM"/>
+                <outlet property="resourceLabel" destination="kVC-qv-9gX" id="sYN-N6-ByG"/>
+            </connections>
+            <point key="canvasLocation" x="86.956521739130437" y="139.28571428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,57 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BSImagePicker (3.1.7)
+  - Charts (3.5.0):
+    - Charts/Core (= 3.5.0)
+  - Charts/Core (3.5.0)
+  - MJRefresh (3.4.1)
+  - PolioPager (2.5)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftForms (1.8.2)
+  - SwiftyJSON (5.0.0)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.9.1)
+  - BSImagePicker (~> 3.1)
+  - Charts
+  - MJRefresh
+  - PolioPager
+  - SDWebImage (~> 5.0)
+  - SVProgressHUD
+  - SwiftForms
+  - SwiftyJSON
+  - XLPagerTabStrip
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MJRefresh
+    - SwiftForms
+  trunk:
+    - Alamofire
+    - BSImagePicker
+    - Charts
+    - PolioPager
+    - SDWebImage
+    - SVProgressHUD
+    - SwiftyJSON
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BSImagePicker: 403ef8cd6f45b3fcdd75419e85e1ec11ecb6fdea
+  Charts: 40a08591df1f8ad5c223ddedfb1a06da92f24f7c
+  MJRefresh: 3153c59a363159092c08b2177ec3a7d09f90bfaf
+  PolioPager: ccb4e382fef0c3c0ee52bdec3d9e9794eafa510a
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftForms: f0d4d30401e21de87d9b7b63a4691a3d4e22bab5
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: 200bf681873fc75440a2057c27645002585bb6b6
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"c4-contest-app.resources"}],"uuid":"c1b9fa0954ea4d489625f8c32510ec1a"}

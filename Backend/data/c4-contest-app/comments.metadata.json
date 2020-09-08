@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"c4-contest-app.comments"}],"uuid":"dc5ef90221434866b490e482ef8f5bf8"}
